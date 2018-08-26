@@ -1,0 +1,39 @@
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\bin\Debug\Final Project.exe.config
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\bin\Debug\Final Project.exe
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\bin\Debug\Final Project.pdb
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\bin\Debug\Final Project.xml
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final Project.vbprojResolveAssemblyReference.cache
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.Form1.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.Resources.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.homeSales.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.HomeSalesOrder.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final Project.vbproj.GenerateResource.Cache
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final Project.exe
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final Project.xml
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final Project.pdb
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.formGudang.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.homeGudang.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.listBarang.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.formProduksi.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.homeProduksi.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.goodReceipt.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.goodIssue.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.formFinance.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.homeFinance.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.goodisuacept.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.modalTransaksi.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.listAllTransaksi.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.rawM.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.modalPilihRaw.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.produksiBarang.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.purchaseOrder.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.formVendor.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.homeVendor.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.PObayarr.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.kirimRawMaterial.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\Produk\Final Product\Final Project\Final Project\obj\Debug\Final_Project.masterData.resources
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\kelompok9\Final Project\Final Project\bin\Debug\Final Project.exe.config
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\kelompok9\Final Project\Final Project\obj\Debug\Final Project.exe
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\kelompok9\Final Project\Final Project\obj\Debug\Final Project.xml
+D:\Materi Kuliah\Semester 7\Sistem Enterprise\kelompok9\Final Project\Final Project\obj\Debug\Final Project.pdb

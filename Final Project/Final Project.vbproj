@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C579F9C8-B219-4C4E-A344-781656EDB31D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Final_Project.My.MyApplication</StartupObject>
+    <RootNamespace>Final_Project</RootNamespace>
+    <AssemblyName>Final Project</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Final Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Final Project.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\..\..\software\bunifu\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="database.vb" />
+    <Compile Include="databasee.vb" />
+    <Compile Include="finance\formFinance.Designer.vb">
+      <DependentUpon>formFinance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="finance\formFinance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finance\homeFinance.Designer.vb">
+      <DependentUpon>homeFinance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="finance\homeFinance.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="finance\listAllTransaksi.Designer.vb">
+      <DependentUpon>listAllTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="finance\listAllTransaksi.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="finance\modalTransaksi.Designer.vb">
+      <DependentUpon>modalTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="finance\modalTransaksi.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="finance\PObayarr.Designer.vb">
+      <DependentUpon>PObayarr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="finance\PObayarr.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gudang\formGudang.Designer.vb">
+      <DependentUpon>formGudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\formGudang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gudang\goodIssue.Designer.vb">
+      <DependentUpon>goodIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\goodIssue.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gudang\goodisuacept.Designer.vb">
+      <DependentUpon>goodisuacept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\goodisuacept.vb" />
+    <Compile Include="gudang\goodReceipt.Designer.vb">
+      <DependentUpon>goodReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\goodReceipt.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gudang\homeGudang.Designer.vb">
+      <DependentUpon>homeGudang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\homeGudang.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gudang\listBarang.Designer.vb">
+      <DependentUpon>listBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\listBarang.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gudang\masterData.Designer.vb">
+      <DependentUpon>masterData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\masterData.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="gudang\purchaseOrder.Designer.vb">
+      <DependentUpon>purchaseOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="gudang\purchaseOrder.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="produksi\formProduksi.Designer.vb">
+      <DependentUpon>formProduksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="produksi\formProduksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="produksi\homeProduksi.Designer.vb">
+      <DependentUpon>homeProduksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="produksi\homeProduksi.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="produksi\modalPilihRaw.Designer.vb">
+      <DependentUpon>modalPilihRaw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="produksi\modalPilihRaw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="produksi\produksiBarang.Designer.vb">
+      <DependentUpon>produksiBarang.vb</DependentUpon>
+    </Compile>
+    <Compile Include="produksi\produksiBarang.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="produksi\rawM.Designer.vb">
+      <DependentUpon>rawM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="produksi\rawM.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales\homeSales.Designer.vb">
+      <DependentUpon>homeSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\homeSales.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sales\HomeSalesOrder.Designer.vb">
+      <DependentUpon>HomeSalesOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sales\HomeSalesOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendor\formVendor.Designer.vb">
+      <DependentUpon>formVendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendor\formVendor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendor\homeVendor.Designer.vb">
+      <DependentUpon>homeVendor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendor\homeVendor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="vendor\kirimRawMaterial.Designer.vb">
+      <DependentUpon>kirimRawMaterial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendor\kirimRawMaterial.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="finance\formFinance.resx">
+      <DependentUpon>formFinance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finance\homeFinance.resx">
+      <DependentUpon>homeFinance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finance\listAllTransaksi.resx">
+      <DependentUpon>listAllTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finance\modalTransaksi.resx">
+      <DependentUpon>modalTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finance\PObayarr.resx">
+      <DependentUpon>PObayarr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\formGudang.resx">
+      <DependentUpon>formGudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\goodIssue.resx">
+      <DependentUpon>goodIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\goodisuacept.resx">
+      <DependentUpon>goodisuacept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\goodReceipt.resx">
+      <DependentUpon>goodReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\homeGudang.resx">
+      <DependentUpon>homeGudang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\listBarang.resx">
+      <DependentUpon>listBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\masterData.resx">
+      <DependentUpon>masterData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gudang\purchaseOrder.resx">
+      <DependentUpon>purchaseOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produksi\formProduksi.resx">
+      <DependentUpon>formProduksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produksi\homeProduksi.resx">
+      <DependentUpon>homeProduksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produksi\modalPilihRaw.resx">
+      <DependentUpon>modalPilihRaw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produksi\produksiBarang.resx">
+      <DependentUpon>produksiBarang.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="produksi\rawM.resx">
+      <DependentUpon>rawM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\homeSales.resx">
+      <DependentUpon>homeSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sales\HomeSalesOrder.resx">
+      <DependentUpon>HomeSalesOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendor\formVendor.resx">
+      <DependentUpon>formVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendor\homeVendor.resx">
+      <DependentUpon>homeVendor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendor\kirimRawMaterial.resx">
+      <DependentUpon>kirimRawMaterial.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
